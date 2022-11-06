@@ -3,7 +3,7 @@
 [English](https://github.com/NeverWonderLand/ghostpack) | [Español](https://github.com/SobrioRiot/ghostpack-esp)
 
 ## Autoinstalación de un entorno avanzado dedicado al hacking ético 
-## Esta herramienta está hecha para ejecutarse después de una nueva instalación de Kali Linux.
+    *Esta herramienta está hecha para ejecutarse después de una nueva instalación de Kali Linux.
 
 ## Incluye
 
