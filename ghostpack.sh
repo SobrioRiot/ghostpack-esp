@@ -14,7 +14,7 @@ apt-get install lolcat
 
 lolcat <<"EOF"
 
-  __
+    __
     ----__                               
     --------__
     -------------__
@@ -32,7 +32,6 @@ lolcat <<"EOF"
              ((_          \-^-/          (((      < - - - - -()_ \      |||           '*`      
             (o o)         (o o)         (o o)             !!   | |     (o o)         (o o)     
         ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo------------------ooO--(_)--Ooo-ooO--(_)--Ooo-                
-
 \\------____-------//-------____-------\\ wondR // Userware \\----\\
 
 EOF
@@ -499,9 +498,9 @@ export MSF_DATABASE_CONFIG=~/.msf4/database.yml
 
 # OTROS AJUSTES Y HACKS
 export HISTCONTROL=ignoredups:erasedups # no hay entradas duplicadas
-export HISTSIZE=100000 # un gran historial
-export HISTFILESIZE=100000 # historial grande
-shopt -s histappend # añadir al historial, no sobrescribirlo
+export HISTSIZE=100000                  # un gran historial
+export HISTFILESIZE=100000              # historial grande
+shopt -s histappend                     # añadir al historial, no sobrescribirlo
 # Guarda y recarga el historial después de que termine cada Comando
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
