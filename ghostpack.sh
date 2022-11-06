@@ -1,5 +1,5 @@
 /bin/bash
-# por wondR & Userware / ES HR
+# por wondR & Userware / Esp SobrioRiot
 # instalación: +- 3 horas
 # Última actualización: 30 de junio de 2022
 # OS: Kali Linux / versión:2022.2
@@ -37,8 +37,8 @@ lolcat <<"EOF"
 
 EOF
 
-fecha_actual=$(fecha)
-echo "A partir de $fecha_actual"
+current_date=$(date)
+echo "A partir de $current_date"
 
 # comprueba si somos ROOT
 if [ $EUID -ne 0 ]; then
@@ -47,7 +47,7 @@ if [ $EUID -ne 0 ]; then
 fi
 
 # habilitar el alias de comandos
-shopt -s expandir_aliases
+shopt -s expand_aliases
 
 # omitir los avisos en apt-upgrade...
 export DEBIAN_FRONTEND=noninteractive
@@ -102,7 +102,7 @@ pip3 install pyReadline habu getips virtualenvwrapper uncompyle6 git-filter-repo
 printf '\n---//---\\-----//---\\---\n\n'
  
 
-printf '\n ▌│"║▌║▌║ Colección de información ▌│"║▌║▌║\n'
+printf '\n ▌│"║▌║▌║ Recolección de información ▌│"║▌║▌║\n'
 printf '\n ---------------------------------------\n\n'
 apt autoremove -y dmitry
 apt install -y ike-scan legion maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc- ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkit
@@ -272,57 +272,57 @@ printf '\n ---------------------\n\n'
 cd $PTF_DIR
 ./ptf <<EOF
 use modules/pivoting/3proxy
-ejecutar
+run
 use modules/pivoting/meterssh
-ejecutar
+run
 use modules/pivoting/pivoter
-ejecutar
+run
 use modules/pivoting/rpivot
-ejecutar
+run
 use modules/av-bypass/pyobfuscate
-ejecutar
+run
 use modules/exploitation/fido
-ejecutar
+run
 use modules/exploitation/fuxploider
-ejecutar
+run
 use modules/exploitation/impacket
-ejecutar
+run
 use modules/exploitation/inception
-ejecutar
+run
 use modules/exploitation/kerberoast
-ejecutar
+run
 use modules/exploitation/mitm6
-ejecutar
+run
 use modules/exploitation/pwntools
-ejecutar
+run
 use modules/webshells/b374k
-ejecutar
+run
 use modules/webshells/blackarch
-ejecutar
+run
 use modules/webshells/wso
-ejecutar
+run
 use modules/intelligence-gathering/amass
-ejecutar
+run
 use modules/intelligence-gathering/autorecon
-ejecutar
+run
 use modules/intelligence-gathering/awsbucket
-ejecutar
+run
 use modules/intelligence-gathering/massdns
-ejecutar
+run
 use modules/intelligence-gathering/windows-exploit-suggester
-ejecutar
+run
 use modules/password-recovery/statistically-likely-usernames
-ejecutar
+run
 use modules/post-exploitation/donut
-ejecutar
+run
 use modules/post-exploitation/evilwinrm
-ejecutar
+run
 use modules/vulnerability-analysis/golismero
-ejecutar
+run
 use modules/powershell/obfuscation
-ejecutar
+run
 use modules/powershell/powersccm
-ejecutar
+run
 EOF
 cd $ROOT_DIR
 printf '\n---//---\\-----//---\\---\n\n'
@@ -431,7 +431,7 @@ wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script
 printf '\n---//---\\-----//---\\---\n\n'
 
 # -------------------------------------------------------
-# Settings
+# Configuracion
 # -------------------------------------------------------
 
 echo "Actualizando..."
@@ -456,7 +456,7 @@ cat <<EOF >$HOME/.tmux.conf
     set -g @plugin 'tmux-plugins/tmux-logging'
 
     # Inicializar el gestor de plugins TMUX (mantener esta línea en la parte inferior de tmux.conf)
-    ejecutar '~/.tmux/plugins/tpm/tpm'
+    run '~/.tmux/plugins/tpm/tpm'
 EOF
 
 # =======================================================
