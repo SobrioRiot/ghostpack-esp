@@ -51,7 +51,7 @@
         
 2. Clonar
 
-        git clone https://github.com/NeverWonderLand/ghostpack
+        git clone https://github.com/SobrioRiot/ghostpack-esp
 
 3. Ejecuta
 
